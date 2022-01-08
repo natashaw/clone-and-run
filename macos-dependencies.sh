@@ -50,28 +50,28 @@ command_absent? htop && brew install htop
 command_absent? nmap && brew install nmap
 
 # iTerm
-application_absent? iTerm && brew cask install iterm2
+application_absent? iTerm && brew install --cask iterm2
 
 # Dropbox
-application_absent? Dropbox && brew cask install dropbox
+application_absent? Dropbox && brew install --cask dropbox
 
 # Google Chrome
-application_absent? "Google Chrome" && brew cask install google-chrome
+application_absent? "Google Chrome" && brew install --cask google-chrome
 
 # WhatsApp
-application_absent? WhatsApp && brew cask install whatsapp
+application_absent? WhatsApp && brew install --cask whatsapp
 
 # Spotify
-application_absent? Spotify && brew cask install spotify
+application_absent? Spotify && brew install --cask spotify
 
 # Tunnelblick
-application_absent? Tunnelblick && brew cask install tunnelblick
+application_absent? Tunnelblick && brew install --cask tunnelblick
 
 # Turbo Boost Switcher
 application_absent? "Turbo Boost Switcher" && brew install --cask turbo-boost-switcher
 
 # 1Password
-application_absent? "1Password 7" && brew cask install 1password
+application_absent? "1Password 7" && brew install --cask 1password
 
 # Raycast
 application_absent? Raycast && brew install --cask raycast
@@ -80,19 +80,19 @@ application_absent? Raycast && brew install --cask raycast
 application_absent? Raycast && brew install --cask notion
 
 # Todoist
-application_absent? Todoist && mas install // TODO add app id
+# application_absent? Todoist && mas install // TODO add app id
 
 # Spark
-application_absent? Spark && mas install // TODO add app id
+# application_absent? Spark && mas install // TODO add app id
 
 # Visual Studio Code
-application_absent? "Visual Studio Code" && brew cask install visual-studio-code
+application_absent? "Visual Studio Code" && brew install --cask visual-studio-code
 
 # Kite
 application_absent? Kite && brew install --cask kite
 
 # Dash
-application_absent? Dash && brew cask install dash
+application_absent? Dash && brew install --cask dash
 
 # Postman
 application_absent? Postman && brew install --cask postman
