@@ -121,6 +121,18 @@ alias setup:start="yarn setup && nodemon"
 alias startproxy="yarn run-backend-proxy"
 alias brew:bundle:install="brew bundle && bundle install"
 
+# Some useful shortcuts for HeyJobs
+# git-e2e() {
+#     git checkout -b ui-test/"$@"
+# }
+
+# gh-pr-e2e() {
+#     readonly ticket=${1:?"Error: TP<R|G>E-123 || trivial || quarantine"}
+#     readonly title=${2:?"Please specify a title."}
+
+#     gh pr create -a "@me" -l "ui-tests" --title "[$ticket] $title"
+# }
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
