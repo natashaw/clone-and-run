@@ -36,16 +36,32 @@ end
 
 if res.code == '200'
   notifications = JSON.parse(res.body)
+  reviews = []
 
-  if notifications.length == 0
-    message = "All done! 🍺"
+  unless notifications.length > 0
+    message = "You've reached zero inbox! 🍺"
     puts "\e[#{GREEN}m#{message}\e[0m"
+    exit(1)
   else
-    color = (notifications.length <= 5) ? YELLOW : RED
-    message = "You have #{notifications.length} open tasks"
-    puts "\e[#{color}m#{message}\e[0m"
     notifications.each do |pr|
-      puts "\e[#{YELLOW}m#{pr['repository']['name']}\e[0m (#{pr['reason']}) \n→  #{pr['subject']['title']}\n(https://github.com/heyjobs/#{pr['repository']['name']}/pull/#{/[0-9]+/.match(pr['subject']['url'])[0]})"
+      if (pr['reason'] == 'review_requested') || (pr['reason'] == 'comment') || (pr['reason'] == 'mention')
+        reviews.push(pr)
+      end
+    end
+    
+    unless reviews.length > 0
+      message = "You have 0 open tasks 🙌🏼"
+      puts "\e[#{GREEN}m#{message}\e[0m"
+      exit(1)
+    else
+      color = (reviews.length <= 5) ? YELLOW : RED
+      message = "You have #{reviews.length} open tasks"
+      puts "\e[#{color}m#{message}\e[0m"
+    end
+    
+    reviews.each do |pr|
+      pr_number = /[0-9]+/.match(pr['subject']['url'])[0]
+      puts "\e[#{YELLOW}m#{pr['repository']['name']}\e[0m (#{pr['reason']}) \n→  #{pr['subject']['title']}\n(https://github.com/heyjobs/#{pr['repository']['name']}/pull/#{pr_number})"
     end
   end
 else
