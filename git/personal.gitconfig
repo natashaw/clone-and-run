@@ -1,0 +1,7 @@
+[core]
+    editor = code -w
+[user]
+    name = natashaw
+    email = natashawijoyo@gmail.com
+[pull]
+    rebase = false

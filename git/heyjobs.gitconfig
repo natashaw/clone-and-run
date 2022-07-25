@@ -1,0 +1,13 @@
+[core]
+    editor = code -w
+[user]
+    name = natashaw
+    email = natashawijoyo@gmail.com
+[pull]
+    rebase = false
+[alias]
+    co = checkout
+    destroy = branch -D
+    last = log -1 HEAD
+    master = checkout master
+    flush = push --no-verify
