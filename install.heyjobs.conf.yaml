@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- create:
+  - ~/Documents/screenshots
+  - ~/Documents/test-media 
+
+- link:
+    ~/.aliases: settings/heyjobs.aliases
+    ~/.exports: settings/exports
+    ~/.zshrc: settings/.zshrc
+    ~/.gitconfig: git/heyjobs.gitconfig
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

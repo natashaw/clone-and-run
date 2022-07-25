@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- create:
+  - ~/Documents/screenshots
+
+- link:
+    ~/.aliases: settings/general.aliases
+    ~/.exports: settings/exports
+    ~/.zshrc: settings/.zshrc
+    ~/.gitconfig: git/personal.gitconfig
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
