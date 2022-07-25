@@ -37,9 +37,6 @@ command_absent? youtube-dl && brew install youtube-dl
 # gh - github cli interface
 command_absent? gh && brew install gh
 
-# bfg - fast git repo cleaner
-command_absent? bfg && brew install bfg
-
 # mas - cli for Mac App Store
 command_absent? mas && brew install mas
 
