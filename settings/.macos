@@ -47,7 +47,7 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock orientation left
 
 # Disable 'Show Spotlight search' hotkey
-# [MacOS] 'Keyboard' > 'Shortcuts' tab > 'Spotligh' section > 'Show Spotlight search'
+# [MacOS] 'Keyboard' > 'Shortcuts' tab > 'Spotlight' section > 'Show Spotlight search'
 plutil -replace AppleSymbolicHotKeys.64.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
 
 # Disable 'Show Finder search window' hotkey
@@ -114,14 +114,17 @@ sudo pmset -a autorestart 1
 # Restart automatically if the computer freezes
 sudo systemsetup -setrestartfreeze on
 
-# Sleep the display after 15 minutes
-sudo pmset -a displaysleep 15
+# Sleep the display after 5 minutes on battery
+sudo pmset -b displaysleep 5
 
-# Disable machine sleep while charging
+# Set system sleep to 30 minutes on battery
+sudo pmset -b sleep 30
+
+# Sleep the display after 30 minutes while charging
+sudo pmset -c displaysleep 30
+
+# Disable system sleep while charging
 sudo pmset -c sleep 0
-
-# Set machine sleep to 5 minutes on battery
-sudo pmset -b sleep 5
 
 # Set standby delay to 24 hours (default is 1 hour)
 sudo pmset -a standbydelay 86400
