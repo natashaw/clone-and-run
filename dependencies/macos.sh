@@ -19,15 +19,24 @@ application_absent? () {
   ! [ -d "/Applications/$1.app" ] || print_and_return $? "Application $1 found. Skipping."
 }
 
-# Homebrew
-command_absent? brew && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Oh My Zsh
+curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
 # Docker
-softwareupdate --install-rosetta
-cd ~/Downloads; curl -O https://desktop.docker.com/mac/main/amd64/Docker.dmg
-sudo hdiutil attach Docker.dmg
-sudo /Volumes/Docker/Docker.app/Contents/MacOS/install
-sudo hdiutil detach /Volumes/Docker
+if ! [ -d "/Applications/Docker.app" ] then
+  softwareupdate --install-rosetta
+  cd ~/Downloads
+  curl -O https://desktop.docker.com/mac/main/amd64/Docker.dmg
+  sudo hdiutil attach Docker.dmg
+  sudo /Volumes/Docker/Docker.app/Contents/MacOS/install
+  sudo hdiutil detach /Volumes/Docker
+else
+  echo "Docker is already installed. Skipping."
+fi
+
+# Homebrew
+command_absent? brew && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 
 # osx-cross
 tapped? osx-cross/avr && brew tap osx-cross/avr
