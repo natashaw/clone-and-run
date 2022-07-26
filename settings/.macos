@@ -37,8 +37,22 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+# Set notification tone to Funk
+defaults write NSGlobalDomain com.apple.sound.beep.sound -string "/System/Library/Sounds/Funk.aiff"
+
 # Autohide Dock
 defaults write com.apple.dock autohide -bool true
+
+# Position Dock to the left
+defaults write com.apple.dock orientation left
+
+# Disable 'Show Spotlight search' hotkey
+# [MacOS] 'Keyboard' > 'Shortcuts' tab > 'Spotligh' section > 'Show Spotlight search'
+plutil -replace AppleSymbolicHotKeys.64.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
+
+# Disable 'Show Finder search window' hotkey
+# [MacOS] 'Keyboard' > 'Shortcuts' tab > 'Spotlight' section > 'Show Finder search window'
+plutil -replace AppleSymbolicHotKeys.65.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
