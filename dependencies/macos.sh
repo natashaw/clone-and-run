@@ -19,9 +19,6 @@ application_absent? () {
   ! [ -d "/Applications/$1.app" ] || print_and_return $? "Application $1 found. Skipping."
 }
 
-# Oh My Zsh
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-
 # Docker
 if ! [ -d "/Applications/Docker.app" ] then
   softwareupdate --install-rosetta
