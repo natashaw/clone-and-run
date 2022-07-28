@@ -21,4 +21,5 @@
   - [sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Installing Oh My Zsh]
   - [git clone https://github.com/agkozak/zsh-z ~/.oh-my-zsh/custom/plugins/zsh-z, Installing zsh-h plugin]
   - [cp -f $PWD/settings/.zshrc $HOME/.zshrc, Renovating .zshrc]
+  - [curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash, Installing NVM]
   

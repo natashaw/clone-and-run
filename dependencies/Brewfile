@@ -6,11 +6,13 @@ brew "awscli"
 brew "dnsmasq"
 brew "ffmpeg"
 brew "gh"
+brew "gnupg"
 brew "mas" # cli for Mac App Store
 brew "htop" 
 brew "nmap" 
 brew "fzf" # fuzzy search
 brew "jq" 
+brew "yq" 
 brew "terminal-notifier" 
 brew "tree" 
 brew "wget"
