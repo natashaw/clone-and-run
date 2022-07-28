@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+# Ask for the super user password upfront
+sudo -v
+
 print_and_return () {
   echo "$2"
   return $1
@@ -20,7 +23,7 @@ application_absent? () {
 }
 
 # Docker
-if ! [ -d "/Applications/Docker.app" ] then
+if ! [ -d "/Applications/Docker.app" ]; then
   softwareupdate --install-rosetta
   cd ~/Downloads
   curl -O https://desktop.docker.com/mac/main/amd64/Docker.dmg
@@ -32,7 +35,7 @@ else
 fi
 
 # Homebrew
-command_absent? brew && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+command_absent? brew && NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 
 # osx-cross
@@ -54,7 +57,7 @@ application_absent? Raycast && brew install --cask raycast
 application_absent? "1Password 7" && brew install --cask 1password
 
 # Notion
-application_absent? Raycast && brew install --cask notion
+application_absent? Notion && brew install --cask notion
 
 # Dropbox
 application_absent? Dropbox && brew install --cask dropbox
