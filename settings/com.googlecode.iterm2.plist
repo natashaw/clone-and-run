@@ -1274,6 +1274,10 @@
 	</dict>
 	<key>Print In Black And White</key>
 	<true/>
+	<key>PromptOnQuit</key>
+	<false/>
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>SoundForEsc</key>
@@ -1310,9 +1314,9 @@
 				<key>Saved Window Type</key>
 				<integer>0</integer>
 				<key>Screen</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Scroller Width</key>
-				<real>15</real>
+				<real>0.0</real>
 				<key>Selected Tab Index</key>
 				<integer>0</integer>
 				<key>Tabs</key>
@@ -1321,12 +1325,12 @@
 						<key>Root</key>
 						<dict>
 							<key>Splitter ID</key>
-							<string>45790587-3642-406B-B85F-62995A53929B</string>
+							<string>7EBEA43D-3718-4437-AE24-C8C02CA026D5</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
 									<key>Splitter ID</key>
-									<string>07127556-113D-4E11-97FF-6597CDBE92FC</string>
+									<string>185DC52F-0009-4970-8919-7FFADD33FB9B</string>
 									<key>Subviews</key>
 									<array>
 										<dict>
@@ -1584,7 +1588,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>B04C2603-BC19-4BCC-9714-CE66C943C8BD</string>
+													<string>70BC6E6C-E39B-456F-9018-760D1FC8343B</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -2129,90 +2133,12 @@
 													<string>/Users/natashawijoyo</string>
 												</dict>
 												<key>Columns</key>
-												<integer>88</integer>
+												<integer>90</integer>
 												<key>Commands</key>
-												<array>
-													<string>z jobz</string>
-													<string>git master</string>
-													<string>git destroy feature/TPRE-762</string>
-													<string>git co</string>
-													<string>git co</string>
-													<string>git co feature/TPRE-819-resync-company-gcts</string>
-													<string>sbin/deploy pluto</string>
-													<string>sbin/remote-run -y pluto rails runner "user=User.find_by(email: 'carlotta.frommer+test-tint1243@heyjobs.de'); p TalentPlatform::BuildLinkingUrl.new(user: user,path: '/messages',auth_mode: 'magic').call; p 'DONE'"</string>
-													<string>&gt;....</string>
-													<string>&gt;....</string>
-													<string>sbin/remote-run -y pluto rails runner "user=User.find_by(email: 'carlotta.frommer+test-tint1243@heyjobs.de'); p TalentPlatform::BuildLinkingUrl.new(user: user,path: '/messages',auth_mode: 'magic').call; p 'DONE'"</string>
-													<string>sbin/remote-run -y pluto rails runner "user=User.find_by(email: 'carlotta.frommer+test-tint1243@heyjobs.de'); p TalentPlatform::BuildLinkingUrl.new(user: user,path: '/messages',auth_mode: 'magic').call; p 'DONE'"</string>
-													<string>sbin/remote-run -y pluto rails runner "user=User.find_by(email: 'carlotta.frommer+test-tint1243@heyjobs.de'); p TalentPlatform::BuildLinkingUrl.new(user: user,path: '/messages',auth_mode: 'magic').call; p 'DONE'"</string>
-													<string>sbin/remote-run -y pluto rails runner "user=User.find_by(email: 'carlotta.frommer+test-tint1243@heyjobs.de'); p TalentPlatform::BuildLinkingUrl.new(user: user,path: '/messages',auth_mode: 'magic').call; p 'DONE'"</string>
-													<string>sbin/deploy pluto</string>
-													<string>git pull</string>
-													<string>git master</string>
-													<string>git merge --abort</string>
-													<string>git master</string>
-													<string>git pull</string>
-													<string>git destroy feature/TPRE-819-resync-company-gcts</string>
-													<string>git co feature/TPRE-819-resync-company-gcts</string>
-													<string>git last</string>
-													<string>sbin/deploy pluto</string>
-													<string>EDITOR="code --wait" rails credentials:edit</string>
-													<string>git log ./.ruby-version</string>
-													<string>sudo docker ps</string>
-													<string>sudo services</string>
-													<string>git master</string>
-													<string>git destroy feature/TPRE-819-resync-company-gcts</string>
-													<string>git pull</string>
-													<string>git pull</string>
-													<string>sbin/deploy pluto</string>
-													<string>git pull</string>
-													<string>git co -b trivial/disable-spam-check-for-all-planets</string>
-													<string>sbin/deploy pluto</string>
-													<string>git master</string>
-													<string>git pull</string>
-													<string>git co TPGE-400-add-new-job-fields-to-gcts-custom-attributes</string>
-													<string>git destroy TPGE-400-add-new-job-fields-to-gcts-custom-attributes</string>
-													<string>sbin/remote-run -y qa rails runner "user=User.find_by(email: 'test.device+1658442374+@heyjobs.de'); puts TalentPlatform::BuildLinkingUrl.new(user: user, path: '/jobs', auth_mode: 'magic').call; puts 'DONE'"</string>
-												</array>
+												<array/>
 												<key>Directories</key>
 												<array>
 													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
 												</array>
 												<key>Environment</key>
 												<dict>
@@ -2220,235 +2146,9 @@
 													<string>/Users/natashawijoyo</string>
 												</dict>
 												<key>Hostname to Shell</key>
-												<dict>
-													<key>natashawijoyo@MAC2020HJ057.local</key>
-													<string>zsh</string>
-												</dict>
+												<dict/>
 												<key>Hosts</key>
-												<array>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-												</array>
+												<array/>
 												<key>Is UTF-8</key>
 												<true/>
 												<key>Key Labels</key>
@@ -2468,37 +2168,39 @@
 												</array>
 												<key>Program</key>
 												<dict>
+													<key>Command</key>
+													<string>login -fp "natashawijoyo"</string>
 													<key>Type</key>
-													<string>Shell Launcher</string>
+													<string>Command</string>
 												</dict>
 												<key>Rows</key>
 												<integer>18</integer>
 												<key>Session GUID</key>
-												<string>5787CF6C-5B60-45F0-AA2A-10CF5EE2C312</string>
+												<string>F3C4BDCF-0E82-49F6-847C-9854A08529D4</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
-												<true/>
+												<false/>
 												<key>Should Expect Prompt Marks</key>
-												<true/>
+												<false/>
 												<key>Substitutions</key>
 												<dict>
 													<key>$$$$</key>
 													<string>$$</string>
 												</dict>
 												<key>Working Directory</key>
-												<string>/Users/natashawijoyo/Documents/jobz_backend</string>
+												<string>/Users/natashawijoyo</string>
 												<key>Working Directory Poller Disabled</key>
-												<true/>
+												<false/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>332</real>
+												<real>334</real>
 												<key>width</key>
-												<real>642</real>
+												<real>640</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -2760,7 +2462,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>39EDAC4D-0BD4-40DC-8EBA-C287830EEC40</string>
+													<string>15C74DB9-3B0C-4A31-9053-1F4FFF1BEE5D</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -3305,70 +3007,12 @@
 													<string>/Users/natashawijoyo</string>
 												</dict>
 												<key>Columns</key>
-												<integer>88</integer>
+												<integer>90</integer>
 												<key>Commands</key>
-												<array>
-													<string>z jobs</string>
-													<string>z jobz</string>
-													<string>ALLOW_GCTS_SYNC_IN_CALLBACKS=1</string>
-													<string>printenv | grep ALLOW_GCTS_SYNC_IN_CALLBACKS</string>
-													<string>$ALLOW_GCTS_SYNC_IN_CALLBACKS=1</string>
-													<string>$ALLOW_GCTS_SYNC_IN_CALLBACKS</string>
-													<string>unset ALLOW_GCTS_SYNC_IN_CALLBACKS</string>
-													<string>printenv</string>
-													<string>printenv | grep RAILS</string>
-													<string>z jobs</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>startproxy</string>
-													<string>la /Library/LaunchAgents/</string>
-												</array>
+												<array/>
 												<key>Directories</key>
 												<array>
 													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
 												</array>
 												<key>Environment</key>
 												<dict>
@@ -3376,187 +3020,9 @@
 													<string>/Users/natashawijoyo</string>
 												</dict>
 												<key>Hostname to Shell</key>
-												<dict>
-													<key>natashawijoyo@MAC2020HJ057.local</key>
-													<string>zsh</string>
-												</dict>
+												<dict/>
 												<key>Hosts</key>
-												<array>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-												</array>
+												<array/>
 												<key>Is UTF-8</key>
 												<true/>
 												<key>Key Labels</key>
@@ -3584,1063 +3050,22 @@
 												<key>Rows</key>
 												<integer>18</integer>
 												<key>Session GUID</key>
-												<string>8C079F8B-A22E-49F4-A8A2-404195F6E623</string>
+												<string>FF7A2508-3D8F-4BF0-A701-DAEFC7DB8FE7</string>
 												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Should Expect Current Dir Updates</key>
-												<true/>
+												<false/>
 												<key>Should Expect Prompt Marks</key>
-												<true/>
+												<false/>
 												<key>Substitutions</key>
 												<dict>
 													<key>$$$$</key>
 													<string>$$</string>
 												</dict>
 												<key>Working Directory</key>
-												<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
+												<string>/Users/natashawijoyo</string>
 												<key>Working Directory Poller Disabled</key>
-												<true/>
-											</dict>
-											<key>View Type</key>
-											<string>SessionView</string>
-											<key>frame</key>
-											<dict>
-												<key>height</key>
-												<real>336</real>
-												<key>width</key>
-												<real>642</real>
-												<key>x</key>
-												<real>0.0</real>
-												<key>y</key>
-												<real>333</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>Is Active</key>
-											<integer>0</integer>
-											<key>Session</key>
-											<dict>
-												<key>Bookmark</key>
-												<dict>
-													<key>ASCII Anti Aliased</key>
-													<true/>
-													<key>Ambiguous Double Width</key>
-													<false/>
-													<key>Ansi 0 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.13574660633484159</real>
-														<key>Green Component</key>
-														<real>0.13574660633484159</real>
-														<key>Red Component</key>
-														<real>0.13574660633484159</real>
-													</dict>
-													<key>Ansi 1 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.058871746063232422</real>
-														<key>Green Component</key>
-														<real>0.0</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Ansi 10 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.35646489677720017</real>
-														<key>Green Component</key>
-														<real>0.88189995290000001</real>
-														<key>Red Component</key>
-														<real>0.67126059688058637</real>
-													</dict>
-													<key>Ansi 11 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.25792301594327316</real>
-														<key>Green Component</key>
-														<real>0.82281720845913986</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Ansi 12 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>1</real>
-														<key>Green Component</key>
-														<real>0.5733030673510271</real>
-														<key>Red Component</key>
-														<real>0.00053359762918048226</real>
-													</dict>
-													<key>Ansi 13 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.92307692307692313</real>
-														<key>Green Component</key>
-														<real>0.37417232689266022</real>
-														<key>Red Component</key>
-														<real>0.60504487800788187</real>
-													</dict>
-													<key>Ansi 14 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.94094775504779782</real>
-														<key>Green Component</key>
-														<real>1</real>
-														<key>Red Component</key>
-														<real>0.4042010611351281</real>
-													</dict>
-													<key>Ansi 15 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>1</real>
-														<key>Green Component</key>
-														<real>1</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Ansi 2 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.04123397171497345</real>
-														<key>Green Component</key>
-														<real>0.88189995288848877</real>
-														<key>Red Component</key>
-														<real>0.54928803443908691</real>
-													</dict>
-													<key>Ansi 3 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.0</real>
-														<key>Green Component</key>
-														<real>0.72656995058059692</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Ansi 4 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.97294086217880249</real>
-														<key>Green Component</key>
-														<real>0.55481654405593872</real>
-														<key>Red Component</key>
-														<real>0.0</real>
-													</dict>
-													<key>Ansi 5 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.65052211284637451</real>
-														<key>Green Component</key>
-														<real>0.26314744353294373</real>
-														<key>Red Component</key>
-														<real>0.42564234137535095</real>
-													</dict>
-													<key>Ansi 6 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.92260181903839111</real>
-														<key>Green Component</key>
-														<real>0.84575581550598145</real>
-														<key>Red Component</key>
-														<real>0.0</real>
-													</dict>
-													<key>Ansi 7 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>1</real>
-														<key>Green Component</key>
-														<real>1</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Ansi 8 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.26696832579185525</real>
-														<key>Green Component</key>
-														<real>0.26696832579185525</real>
-														<key>Red Component</key>
-														<real>0.26696832579185525</real>
-													</dict>
-													<key>Ansi 9 Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.24923402424592656</real>
-														<key>Green Component</key>
-														<real>0.15470406080870669</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>BM Growl</key>
-													<true/>
-													<key>Background Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.097826063632965088</real>
-														<key>Green Component</key>
-														<real>0.060920167714357376</real>
-														<key>Red Component</key>
-														<real>0.0540635846555233</real>
-													</dict>
-													<key>Background Image Location</key>
-													<string></string>
-													<key>Badge Color</key>
-													<dict>
-														<key>Alpha Component</key>
-														<real>0.5</real>
-														<key>Blue Component</key>
-														<real>0.0</real>
-														<key>Color Space</key>
-														<string>sRGB</string>
-														<key>Green Component</key>
-														<real>0.1491314172744751</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Blinking Cursor</key>
-													<false/>
-													<key>Blur</key>
-													<false/>
-													<key>Bold Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.60246169567108154</real>
-														<key>Green Component</key>
-														<real>0.6100342869758606</real>
-														<key>Red Component</key>
-														<real>0.61956524848937988</real>
-													</dict>
-													<key>Character Encoding</key>
-													<integer>4</integer>
-													<key>Close Sessions On End</key>
-													<true/>
-													<key>Columns</key>
-													<integer>80</integer>
-													<key>Command</key>
-													<string></string>
-													<key>Cursor Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.0940093994140625</real>
-														<key>Green Component</key>
-														<real>0.0</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Cursor Guide Color</key>
-													<dict>
-														<key>Alpha Component</key>
-														<real>0.25</real>
-														<key>Blue Component</key>
-														<real>1</real>
-														<key>Color Space</key>
-														<string>sRGB</string>
-														<key>Green Component</key>
-														<real>0.9268307089805603</real>
-														<key>Red Component</key>
-														<real>0.70213186740875244</real>
-													</dict>
-													<key>Cursor Text Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.0940093994140625</real>
-														<key>Green Component</key>
-														<real>0.0</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Custom Command</key>
-													<string>No</string>
-													<key>Custom Directory</key>
-													<string>No</string>
-													<key>Default Bookmark</key>
-													<string>No</string>
-													<key>Description</key>
-													<string>Default</string>
-													<key>Disable Window Resizing</key>
-													<true/>
-													<key>Flashing Bell</key>
-													<false/>
-													<key>Foreground Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.95548701286315918</real>
-														<key>Green Component</key>
-														<real>0.98048108816146851</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Guid</key>
-													<string>2D082229-1E59-480B-9188-106FBA64CC0B</string>
-													<key>Horizontal Spacing</key>
-													<real>1</real>
-													<key>Idle Code</key>
-													<integer>0</integer>
-													<key>Jobs to Ignore</key>
-													<array>
-														<string>rlogin</string>
-														<string>ssh</string>
-														<string>slogin</string>
-														<string>telnet</string>
-													</array>
-													<key>Keyboard Map</key>
-													<dict>
-														<key>0x2d-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1f</string>
-														</dict>
-														<key>0x32-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x00</string>
-														</dict>
-														<key>0x33-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1b</string>
-														</dict>
-														<key>0x34-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1c</string>
-														</dict>
-														<key>0x35-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1d</string>
-														</dict>
-														<key>0x36-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1e</string>
-														</dict>
-														<key>0x37-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1f</string>
-														</dict>
-														<key>0x38-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x7f</string>
-														</dict>
-														<key>0xf700-0x220000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2A</string>
-														</dict>
-														<key>0xf700-0x240000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;5A</string>
-														</dict>
-														<key>0xf700-0x260000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;6A</string>
-														</dict>
-														<key>0xf700-0x280000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1b 0x1b 0x5b 0x41</string>
-														</dict>
-														<key>0xf701-0x220000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2B</string>
-														</dict>
-														<key>0xf701-0x240000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;5B</string>
-														</dict>
-														<key>0xf701-0x260000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;6B</string>
-														</dict>
-														<key>0xf701-0x280000</key>
-														<dict>
-															<key>Action</key>
-															<integer>11</integer>
-															<key>Text</key>
-															<string>0x1b 0x1b 0x5b 0x42</string>
-														</dict>
-														<key>0xf702-0x220000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2D</string>
-														</dict>
-														<key>0xf702-0x240000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;5D</string>
-														</dict>
-														<key>0xf702-0x260000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;6D</string>
-														</dict>
-														<key>0xf702-0x280000-0x7b</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Label</key>
-															<string></string>
-															<key>Text</key>
-															<string>b</string>
-														</dict>
-														<key>0xf702-0x300000-0x7b</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Label</key>
-															<string></string>
-															<key>Text</key>
-															<string>OH</string>
-														</dict>
-														<key>0xf703-0x220000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2C</string>
-														</dict>
-														<key>0xf703-0x240000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;5C</string>
-														</dict>
-														<key>0xf703-0x260000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;6C</string>
-														</dict>
-														<key>0xf703-0x280000-0x7c</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Label</key>
-															<string></string>
-															<key>Text</key>
-															<string>f</string>
-														</dict>
-														<key>0xf703-0x300000-0x7c</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Label</key>
-															<string></string>
-															<key>Text</key>
-															<string>OF</string>
-														</dict>
-														<key>0xf704-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2P</string>
-														</dict>
-														<key>0xf705-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2Q</string>
-														</dict>
-														<key>0xf706-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2R</string>
-														</dict>
-														<key>0xf707-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2S</string>
-														</dict>
-														<key>0xf708-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[15;2~</string>
-														</dict>
-														<key>0xf709-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[17;2~</string>
-														</dict>
-														<key>0xf70a-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[18;2~</string>
-														</dict>
-														<key>0xf70b-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[19;2~</string>
-														</dict>
-														<key>0xf70c-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[20;2~</string>
-														</dict>
-														<key>0xf70d-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[21;2~</string>
-														</dict>
-														<key>0xf70e-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[23;2~</string>
-														</dict>
-														<key>0xf70f-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[24;2~</string>
-														</dict>
-														<key>0xf729-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2H</string>
-														</dict>
-														<key>0xf729-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;5H</string>
-														</dict>
-														<key>0xf72b-0x20000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;2F</string>
-														</dict>
-														<key>0xf72b-0x40000</key>
-														<dict>
-															<key>Action</key>
-															<integer>10</integer>
-															<key>Text</key>
-															<string>[1;5F</string>
-														</dict>
-													</dict>
-													<key>Link Color</key>
-													<dict>
-														<key>Alpha Component</key>
-														<real>1</real>
-														<key>Blue Component</key>
-														<real>0.73423302173614502</real>
-														<key>Color Space</key>
-														<string>sRGB</string>
-														<key>Green Component</key>
-														<real>0.35916060209274292</real>
-														<key>Red Component</key>
-														<real>0.0</real>
-													</dict>
-													<key>Mouse Reporting</key>
-													<true/>
-													<key>Name</key>
-													<string>Default</string>
-													<key>Non Ascii Font</key>
-													<string>Monaco 12</string>
-													<key>Non-ASCII Anti Aliased</key>
-													<true/>
-													<key>Normal Font</key>
-													<string>Monaco 12</string>
-													<key>Option Key Sends</key>
-													<integer>0</integer>
-													<key>Original Guid</key>
-													<string>761FECA8-9C84-42F4-92A5-D14775EAD01B</string>
-													<key>Prompt Before Closing 2</key>
-													<false/>
-													<key>Right Option Key Sends</key>
-													<integer>0</integer>
-													<key>Rows</key>
-													<integer>25</integer>
-													<key>Screen</key>
-													<integer>-1</integer>
-													<key>Scrollback Lines</key>
-													<integer>1000</integer>
-													<key>Selected Text Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>1</real>
-														<key>Green Component</key>
-														<real>1</real>
-														<key>Red Component</key>
-														<real>1</real>
-													</dict>
-													<key>Selection Color</key>
-													<dict>
-														<key>Blue Component</key>
-														<real>0.23076923191547394</real>
-														<key>Green Component</key>
-														<real>0.16498950123786926</real>
-														<key>Red Component</key>
-														<real>0.0</real>
-													</dict>
-													<key>Send Bell Alert</key>
-													<false/>
-													<key>Send Code When Idle</key>
-													<false/>
-													<key>Send New Output Alert</key>
-													<false/>
-													<key>Shortcut</key>
-													<string></string>
-													<key>Show Status Bar</key>
-													<true/>
-													<key>Silence Bell</key>
-													<false/>
-													<key>Smart Cursor Color</key>
-													<false/>
-													<key>Status Bar Layout</key>
-													<dict>
-														<key>advanced configuration</key>
-														<dict>
-															<key>algorithm</key>
-															<integer>0</integer>
-															<key>auto-rainbow style</key>
-															<integer>2</integer>
-															<key>font</key>
-															<string>.AppleSystemUIFont 12</string>
-															<key>remove empty components</key>
-															<false/>
-														</dict>
-														<key>components</key>
-														<array>
-															<dict>
-																<key>class</key>
-																<string>iTermStatusBarNetworkUtilizationComponent</string>
-																<key>configuration</key>
-																<dict>
-																	<key>knobs</key>
-																	<dict>
-																		<key>base: compression resistance</key>
-																		<integer>1</integer>
-																		<key>base: priority</key>
-																		<real>5</real>
-																		<key>shared text color</key>
-																		<dict>
-																			<key>Alpha Component</key>
-																			<real>1</real>
-																			<key>Blue Component</key>
-																			<real>0.25</real>
-																			<key>Color Space</key>
-																			<string>sRGB</string>
-																			<key>Green Component</key>
-																			<real>0.25</real>
-																			<key>Red Component</key>
-																			<real>0.5</real>
-																		</dict>
-																	</dict>
-																	<key>layout advanced configuration dictionary value</key>
-																	<dict>
-																		<key>algorithm</key>
-																		<integer>0</integer>
-																		<key>auto-rainbow style</key>
-																		<integer>2</integer>
-																		<key>font</key>
-																		<string>.AppleSystemUIFont 12</string>
-																		<key>remove empty components</key>
-																		<false/>
-																	</dict>
-																</dict>
-															</dict>
-															<dict>
-																<key>class</key>
-																<string>iTermStatusBarCPUUtilizationComponent</string>
-																<key>configuration</key>
-																<dict>
-																	<key>knobs</key>
-																	<dict>
-																		<key>base: compression resistance</key>
-																		<integer>1</integer>
-																		<key>base: priority</key>
-																		<real>5</real>
-																		<key>shared text color</key>
-																		<dict>
-																			<key>Alpha Component</key>
-																			<real>1</real>
-																			<key>Blue Component</key>
-																			<real>0.4325</real>
-																			<key>Color Space</key>
-																			<string>sRGB</string>
-																			<key>Green Component</key>
-																			<real>0.5</real>
-																			<key>Red Component</key>
-																			<real>0.25</real>
-																		</dict>
-																	</dict>
-																	<key>layout advanced configuration dictionary value</key>
-																	<dict>
-																		<key>algorithm</key>
-																		<integer>0</integer>
-																		<key>auto-rainbow style</key>
-																		<integer>0</integer>
-																		<key>remove empty components</key>
-																		<false/>
-																	</dict>
-																</dict>
-															</dict>
-															<dict>
-																<key>class</key>
-																<string>iTermStatusBarBatteryComponent</string>
-																<key>configuration</key>
-																<dict>
-																	<key>knobs</key>
-																	<dict>
-																		<key>base: compression resistance</key>
-																		<integer>1</integer>
-																		<key>base: priority</key>
-																		<real>5</real>
-																		<key>shared text color</key>
-																		<dict>
-																			<key>Alpha Component</key>
-																			<real>1</real>
-																			<key>Blue Component</key>
-																			<real>0.38500000000000001</real>
-																			<key>Color Space</key>
-																			<string>sRGB</string>
-																			<key>Green Component</key>
-																			<real>0.25</real>
-																			<key>Red Component</key>
-																			<real>0.5</real>
-																		</dict>
-																	</dict>
-																	<key>layout advanced configuration dictionary value</key>
-																	<dict>
-																		<key>algorithm</key>
-																		<integer>0</integer>
-																		<key>auto-rainbow style</key>
-																		<integer>0</integer>
-																		<key>remove empty components</key>
-																		<false/>
-																	</dict>
-																</dict>
-															</dict>
-														</array>
-													</dict>
-													<key>Sync Title</key>
-													<false/>
-													<key>Tags</key>
-													<array/>
-													<key>Terminal Type</key>
-													<string>xterm-256color</string>
-													<key>Title Components</key>
-													<integer>3</integer>
-													<key>Transparency</key>
-													<real>0.0</real>
-													<key>Unlimited Scrollback</key>
-													<false/>
-													<key>Use Bold Font</key>
-													<true/>
-													<key>Use Bright Bold</key>
-													<true/>
-													<key>Use Cursor Guide</key>
-													<false/>
-													<key>Use Italic Font</key>
-													<true/>
-													<key>Use Non-ASCII Font</key>
-													<false/>
-													<key>Vertical Spacing</key>
-													<real>1</real>
-													<key>Visual Bell</key>
-													<true/>
-													<key>Window Type</key>
-													<integer>0</integer>
-													<key>Working Directory</key>
-													<string>/Users/natashawijoyo</string>
-												</dict>
-												<key>Columns</key>
-												<integer>88</integer>
-												<key>Commands</key>
-												<array>
-													<string>z jobs</string>
-													<string>setup:start</string>
-													<string>setup:start</string>
-													<string>startui</string>
-													<string>startui</string>
-													<string>z script</string>
-													<string>z jobs</string>
-													<string>setup:start</string>
-													<string>setup:start</string>
-													<string>startui</string>
-													<string>setup:start</string>
-													<string>setup:start</string>
-													<string>setup:start</string>
-													<string>setup:start</string>
-													<string>startui</string>
-													<string>setup:start</string>
-													<string>la ~/Library/LaunchAgents</string>
-												</array>
-												<key>Directories</key>
-												<array>
-													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/script-ops</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-													<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-												</array>
-												<key>Environment</key>
-												<dict>
-													<key>PWD</key>
-													<string>/Users/natashawijoyo</string>
-												</dict>
-												<key>Hostname to Shell</key>
-												<dict>
-													<key>natashawijoyo@MAC2020HJ057.local</key>
-													<string>zsh</string>
-												</dict>
-												<key>Hosts</key>
-												<array>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-													<dict>
-														<key>Host name</key>
-														<string>MAC2020HJ057.local</string>
-														<key>User name</key>
-														<string>natashawijoyo</string>
-													</dict>
-												</array>
-												<key>Is UTF-8</key>
-												<true/>
-												<key>Key Labels</key>
-												<dict/>
-												<key>Name Controller State</key>
-												<dict>
-													<key>icon title stack</key>
-													<array/>
-													<key>window title stack</key>
-													<array/>
-												</dict>
-												<key>Overridden Fields</key>
-												<array>
-													<string>Original Guid</string>
-													<string>Guid</string>
-													<string>Title Components</string>
-												</array>
-												<key>Program</key>
-												<dict>
-													<key>Command</key>
-													<string>login -fp "natashawijoyo"</string>
-													<key>Type</key>
-													<string>Command</string>
-												</dict>
-												<key>Rows</key>
-												<integer>18</integer>
-												<key>Session GUID</key>
-												<string>45876899-D1B4-460C-AFBF-8E360F0F0ECC</string>
-												<key>Short Lived Single Use</key>
 												<false/>
-												<key>Should Expect Current Dir Updates</key>
-												<true/>
-												<key>Should Expect Prompt Marks</key>
-												<true/>
-												<key>Substitutions</key>
-												<dict>
-													<key>$$$$</key>
-													<string>$$</string>
-												</dict>
-												<key>Working Directory</key>
-												<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-												<key>Working Directory Poller Disabled</key>
-												<true/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -4649,11 +3074,885 @@
 												<key>height</key>
 												<real>335</real>
 												<key>width</key>
-												<real>642</real>
+												<real>640</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>670</real>
+												<real>335</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>Is Active</key>
+											<integer>1</integer>
+											<key>Session</key>
+											<dict>
+												<key>Bookmark</key>
+												<dict>
+													<key>ASCII Anti Aliased</key>
+													<true/>
+													<key>Ambiguous Double Width</key>
+													<false/>
+													<key>Ansi 0 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.13574660633484159</real>
+														<key>Green Component</key>
+														<real>0.13574660633484159</real>
+														<key>Red Component</key>
+														<real>0.13574660633484159</real>
+													</dict>
+													<key>Ansi 1 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.058871746063232422</real>
+														<key>Green Component</key>
+														<real>0.0</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Ansi 10 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.35646489677720017</real>
+														<key>Green Component</key>
+														<real>0.88189995290000001</real>
+														<key>Red Component</key>
+														<real>0.67126059688058637</real>
+													</dict>
+													<key>Ansi 11 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.25792301594327316</real>
+														<key>Green Component</key>
+														<real>0.82281720845913986</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Ansi 12 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>1</real>
+														<key>Green Component</key>
+														<real>0.5733030673510271</real>
+														<key>Red Component</key>
+														<real>0.00053359762918048226</real>
+													</dict>
+													<key>Ansi 13 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.92307692307692313</real>
+														<key>Green Component</key>
+														<real>0.37417232689266022</real>
+														<key>Red Component</key>
+														<real>0.60504487800788187</real>
+													</dict>
+													<key>Ansi 14 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.94094775504779782</real>
+														<key>Green Component</key>
+														<real>1</real>
+														<key>Red Component</key>
+														<real>0.4042010611351281</real>
+													</dict>
+													<key>Ansi 15 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>1</real>
+														<key>Green Component</key>
+														<real>1</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Ansi 2 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.04123397171497345</real>
+														<key>Green Component</key>
+														<real>0.88189995288848877</real>
+														<key>Red Component</key>
+														<real>0.54928803443908691</real>
+													</dict>
+													<key>Ansi 3 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.0</real>
+														<key>Green Component</key>
+														<real>0.72656995058059692</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Ansi 4 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.97294086217880249</real>
+														<key>Green Component</key>
+														<real>0.55481654405593872</real>
+														<key>Red Component</key>
+														<real>0.0</real>
+													</dict>
+													<key>Ansi 5 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.65052211284637451</real>
+														<key>Green Component</key>
+														<real>0.26314744353294373</real>
+														<key>Red Component</key>
+														<real>0.42564234137535095</real>
+													</dict>
+													<key>Ansi 6 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.92260181903839111</real>
+														<key>Green Component</key>
+														<real>0.84575581550598145</real>
+														<key>Red Component</key>
+														<real>0.0</real>
+													</dict>
+													<key>Ansi 7 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>1</real>
+														<key>Green Component</key>
+														<real>1</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Ansi 8 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.26696832579185525</real>
+														<key>Green Component</key>
+														<real>0.26696832579185525</real>
+														<key>Red Component</key>
+														<real>0.26696832579185525</real>
+													</dict>
+													<key>Ansi 9 Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.24923402424592656</real>
+														<key>Green Component</key>
+														<real>0.15470406080870669</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>BM Growl</key>
+													<true/>
+													<key>Background Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.097826063632965088</real>
+														<key>Green Component</key>
+														<real>0.060920167714357376</real>
+														<key>Red Component</key>
+														<real>0.0540635846555233</real>
+													</dict>
+													<key>Background Image Location</key>
+													<string></string>
+													<key>Badge Color</key>
+													<dict>
+														<key>Alpha Component</key>
+														<real>0.5</real>
+														<key>Blue Component</key>
+														<real>0.0</real>
+														<key>Color Space</key>
+														<string>sRGB</string>
+														<key>Green Component</key>
+														<real>0.1491314172744751</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Blinking Cursor</key>
+													<false/>
+													<key>Blur</key>
+													<false/>
+													<key>Bold Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.60246169567108154</real>
+														<key>Green Component</key>
+														<real>0.6100342869758606</real>
+														<key>Red Component</key>
+														<real>0.61956524848937988</real>
+													</dict>
+													<key>Character Encoding</key>
+													<integer>4</integer>
+													<key>Close Sessions On End</key>
+													<true/>
+													<key>Columns</key>
+													<integer>80</integer>
+													<key>Command</key>
+													<string></string>
+													<key>Cursor Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.0940093994140625</real>
+														<key>Green Component</key>
+														<real>0.0</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Cursor Guide Color</key>
+													<dict>
+														<key>Alpha Component</key>
+														<real>0.25</real>
+														<key>Blue Component</key>
+														<real>1</real>
+														<key>Color Space</key>
+														<string>sRGB</string>
+														<key>Green Component</key>
+														<real>0.9268307089805603</real>
+														<key>Red Component</key>
+														<real>0.70213186740875244</real>
+													</dict>
+													<key>Cursor Text Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.0940093994140625</real>
+														<key>Green Component</key>
+														<real>0.0</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Custom Command</key>
+													<string>No</string>
+													<key>Custom Directory</key>
+													<string>No</string>
+													<key>Default Bookmark</key>
+													<string>No</string>
+													<key>Description</key>
+													<string>Default</string>
+													<key>Disable Window Resizing</key>
+													<true/>
+													<key>Flashing Bell</key>
+													<false/>
+													<key>Foreground Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.95548701286315918</real>
+														<key>Green Component</key>
+														<real>0.98048108816146851</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Guid</key>
+													<string>05046392-C6D9-423E-9E30-31A884B71DEE</string>
+													<key>Horizontal Spacing</key>
+													<real>1</real>
+													<key>Idle Code</key>
+													<integer>0</integer>
+													<key>Jobs to Ignore</key>
+													<array>
+														<string>rlogin</string>
+														<string>ssh</string>
+														<string>slogin</string>
+														<string>telnet</string>
+													</array>
+													<key>Keyboard Map</key>
+													<dict>
+														<key>0x2d-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1f</string>
+														</dict>
+														<key>0x32-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x00</string>
+														</dict>
+														<key>0x33-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1b</string>
+														</dict>
+														<key>0x34-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1c</string>
+														</dict>
+														<key>0x35-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1d</string>
+														</dict>
+														<key>0x36-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1e</string>
+														</dict>
+														<key>0x37-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1f</string>
+														</dict>
+														<key>0x38-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x7f</string>
+														</dict>
+														<key>0xf700-0x220000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2A</string>
+														</dict>
+														<key>0xf700-0x240000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;5A</string>
+														</dict>
+														<key>0xf700-0x260000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;6A</string>
+														</dict>
+														<key>0xf700-0x280000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1b 0x1b 0x5b 0x41</string>
+														</dict>
+														<key>0xf701-0x220000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2B</string>
+														</dict>
+														<key>0xf701-0x240000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;5B</string>
+														</dict>
+														<key>0xf701-0x260000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;6B</string>
+														</dict>
+														<key>0xf701-0x280000</key>
+														<dict>
+															<key>Action</key>
+															<integer>11</integer>
+															<key>Text</key>
+															<string>0x1b 0x1b 0x5b 0x42</string>
+														</dict>
+														<key>0xf702-0x220000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2D</string>
+														</dict>
+														<key>0xf702-0x240000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;5D</string>
+														</dict>
+														<key>0xf702-0x260000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;6D</string>
+														</dict>
+														<key>0xf702-0x280000-0x7b</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Label</key>
+															<string></string>
+															<key>Text</key>
+															<string>b</string>
+														</dict>
+														<key>0xf702-0x300000-0x7b</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Label</key>
+															<string></string>
+															<key>Text</key>
+															<string>OH</string>
+														</dict>
+														<key>0xf703-0x220000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2C</string>
+														</dict>
+														<key>0xf703-0x240000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;5C</string>
+														</dict>
+														<key>0xf703-0x260000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;6C</string>
+														</dict>
+														<key>0xf703-0x280000-0x7c</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Label</key>
+															<string></string>
+															<key>Text</key>
+															<string>f</string>
+														</dict>
+														<key>0xf703-0x300000-0x7c</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Label</key>
+															<string></string>
+															<key>Text</key>
+															<string>OF</string>
+														</dict>
+														<key>0xf704-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2P</string>
+														</dict>
+														<key>0xf705-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2Q</string>
+														</dict>
+														<key>0xf706-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2R</string>
+														</dict>
+														<key>0xf707-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2S</string>
+														</dict>
+														<key>0xf708-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[15;2~</string>
+														</dict>
+														<key>0xf709-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[17;2~</string>
+														</dict>
+														<key>0xf70a-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[18;2~</string>
+														</dict>
+														<key>0xf70b-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[19;2~</string>
+														</dict>
+														<key>0xf70c-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[20;2~</string>
+														</dict>
+														<key>0xf70d-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[21;2~</string>
+														</dict>
+														<key>0xf70e-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[23;2~</string>
+														</dict>
+														<key>0xf70f-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[24;2~</string>
+														</dict>
+														<key>0xf729-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2H</string>
+														</dict>
+														<key>0xf729-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;5H</string>
+														</dict>
+														<key>0xf72b-0x20000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;2F</string>
+														</dict>
+														<key>0xf72b-0x40000</key>
+														<dict>
+															<key>Action</key>
+															<integer>10</integer>
+															<key>Text</key>
+															<string>[1;5F</string>
+														</dict>
+													</dict>
+													<key>Link Color</key>
+													<dict>
+														<key>Alpha Component</key>
+														<real>1</real>
+														<key>Blue Component</key>
+														<real>0.73423302173614502</real>
+														<key>Color Space</key>
+														<string>sRGB</string>
+														<key>Green Component</key>
+														<real>0.35916060209274292</real>
+														<key>Red Component</key>
+														<real>0.0</real>
+													</dict>
+													<key>Mouse Reporting</key>
+													<true/>
+													<key>Name</key>
+													<string>Default</string>
+													<key>Non Ascii Font</key>
+													<string>Monaco 12</string>
+													<key>Non-ASCII Anti Aliased</key>
+													<true/>
+													<key>Normal Font</key>
+													<string>Monaco 12</string>
+													<key>Option Key Sends</key>
+													<integer>0</integer>
+													<key>Original Guid</key>
+													<string>761FECA8-9C84-42F4-92A5-D14775EAD01B</string>
+													<key>Prompt Before Closing 2</key>
+													<false/>
+													<key>Right Option Key Sends</key>
+													<integer>0</integer>
+													<key>Rows</key>
+													<integer>25</integer>
+													<key>Screen</key>
+													<integer>-1</integer>
+													<key>Scrollback Lines</key>
+													<integer>1000</integer>
+													<key>Selected Text Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>1</real>
+														<key>Green Component</key>
+														<real>1</real>
+														<key>Red Component</key>
+														<real>1</real>
+													</dict>
+													<key>Selection Color</key>
+													<dict>
+														<key>Blue Component</key>
+														<real>0.23076923191547394</real>
+														<key>Green Component</key>
+														<real>0.16498950123786926</real>
+														<key>Red Component</key>
+														<real>0.0</real>
+													</dict>
+													<key>Send Bell Alert</key>
+													<false/>
+													<key>Send Code When Idle</key>
+													<false/>
+													<key>Send New Output Alert</key>
+													<false/>
+													<key>Shortcut</key>
+													<string></string>
+													<key>Show Status Bar</key>
+													<true/>
+													<key>Silence Bell</key>
+													<false/>
+													<key>Smart Cursor Color</key>
+													<false/>
+													<key>Status Bar Layout</key>
+													<dict>
+														<key>advanced configuration</key>
+														<dict>
+															<key>algorithm</key>
+															<integer>0</integer>
+															<key>auto-rainbow style</key>
+															<integer>2</integer>
+															<key>font</key>
+															<string>.AppleSystemUIFont 12</string>
+															<key>remove empty components</key>
+															<false/>
+														</dict>
+														<key>components</key>
+														<array>
+															<dict>
+																<key>class</key>
+																<string>iTermStatusBarNetworkUtilizationComponent</string>
+																<key>configuration</key>
+																<dict>
+																	<key>knobs</key>
+																	<dict>
+																		<key>base: compression resistance</key>
+																		<integer>1</integer>
+																		<key>base: priority</key>
+																		<real>5</real>
+																		<key>shared text color</key>
+																		<dict>
+																			<key>Alpha Component</key>
+																			<real>1</real>
+																			<key>Blue Component</key>
+																			<real>0.25</real>
+																			<key>Color Space</key>
+																			<string>sRGB</string>
+																			<key>Green Component</key>
+																			<real>0.25</real>
+																			<key>Red Component</key>
+																			<real>0.5</real>
+																		</dict>
+																	</dict>
+																	<key>layout advanced configuration dictionary value</key>
+																	<dict>
+																		<key>algorithm</key>
+																		<integer>0</integer>
+																		<key>auto-rainbow style</key>
+																		<integer>2</integer>
+																		<key>font</key>
+																		<string>.AppleSystemUIFont 12</string>
+																		<key>remove empty components</key>
+																		<false/>
+																	</dict>
+																</dict>
+															</dict>
+															<dict>
+																<key>class</key>
+																<string>iTermStatusBarCPUUtilizationComponent</string>
+																<key>configuration</key>
+																<dict>
+																	<key>knobs</key>
+																	<dict>
+																		<key>base: compression resistance</key>
+																		<integer>1</integer>
+																		<key>base: priority</key>
+																		<real>5</real>
+																		<key>shared text color</key>
+																		<dict>
+																			<key>Alpha Component</key>
+																			<real>1</real>
+																			<key>Blue Component</key>
+																			<real>0.4325</real>
+																			<key>Color Space</key>
+																			<string>sRGB</string>
+																			<key>Green Component</key>
+																			<real>0.5</real>
+																			<key>Red Component</key>
+																			<real>0.25</real>
+																		</dict>
+																	</dict>
+																	<key>layout advanced configuration dictionary value</key>
+																	<dict>
+																		<key>algorithm</key>
+																		<integer>0</integer>
+																		<key>auto-rainbow style</key>
+																		<integer>0</integer>
+																		<key>remove empty components</key>
+																		<false/>
+																	</dict>
+																</dict>
+															</dict>
+															<dict>
+																<key>class</key>
+																<string>iTermStatusBarBatteryComponent</string>
+																<key>configuration</key>
+																<dict>
+																	<key>knobs</key>
+																	<dict>
+																		<key>base: compression resistance</key>
+																		<integer>1</integer>
+																		<key>base: priority</key>
+																		<real>5</real>
+																		<key>shared text color</key>
+																		<dict>
+																			<key>Alpha Component</key>
+																			<real>1</real>
+																			<key>Blue Component</key>
+																			<real>0.38500000000000001</real>
+																			<key>Color Space</key>
+																			<string>sRGB</string>
+																			<key>Green Component</key>
+																			<real>0.25</real>
+																			<key>Red Component</key>
+																			<real>0.5</real>
+																		</dict>
+																	</dict>
+																	<key>layout advanced configuration dictionary value</key>
+																	<dict>
+																		<key>algorithm</key>
+																		<integer>0</integer>
+																		<key>auto-rainbow style</key>
+																		<integer>0</integer>
+																		<key>remove empty components</key>
+																		<false/>
+																	</dict>
+																</dict>
+															</dict>
+														</array>
+													</dict>
+													<key>Sync Title</key>
+													<false/>
+													<key>Tags</key>
+													<array/>
+													<key>Terminal Type</key>
+													<string>xterm-256color</string>
+													<key>Title Components</key>
+													<integer>3</integer>
+													<key>Transparency</key>
+													<real>0.0</real>
+													<key>Unlimited Scrollback</key>
+													<false/>
+													<key>Use Bold Font</key>
+													<true/>
+													<key>Use Bright Bold</key>
+													<true/>
+													<key>Use Cursor Guide</key>
+													<false/>
+													<key>Use Italic Font</key>
+													<true/>
+													<key>Use Non-ASCII Font</key>
+													<false/>
+													<key>Vertical Spacing</key>
+													<real>1</real>
+													<key>Visual Bell</key>
+													<true/>
+													<key>Window Type</key>
+													<integer>0</integer>
+													<key>Working Directory</key>
+													<string>/Users/natashawijoyo</string>
+												</dict>
+												<key>Columns</key>
+												<integer>90</integer>
+												<key>Commands</key>
+												<array/>
+												<key>Directories</key>
+												<array>
+													<string>/Users/natashawijoyo</string>
+												</array>
+												<key>Environment</key>
+												<dict>
+													<key>PWD</key>
+													<string>/Users/natashawijoyo</string>
+												</dict>
+												<key>Hostname to Shell</key>
+												<dict/>
+												<key>Hosts</key>
+												<array/>
+												<key>Is UTF-8</key>
+												<true/>
+												<key>Key Labels</key>
+												<dict/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
+												<key>Overridden Fields</key>
+												<array>
+													<string>Original Guid</string>
+													<string>Guid</string>
+													<string>Title Components</string>
+												</array>
+												<key>Program</key>
+												<dict>
+													<key>Command</key>
+													<string>login -fp "natashawijoyo"</string>
+													<key>Type</key>
+													<string>Command</string>
+												</dict>
+												<key>Rows</key>
+												<integer>18</integer>
+												<key>Session GUID</key>
+												<string>13D70F9B-9E5A-403F-BEBE-1BD9B9C6180B</string>
+												<key>Short Lived Single Use</key>
+												<false/>
+												<key>Should Expect Current Dir Updates</key>
+												<false/>
+												<key>Should Expect Prompt Marks</key>
+												<false/>
+												<key>Substitutions</key>
+												<dict>
+													<key>$$$$</key>
+													<string>$$</string>
+												</dict>
+												<key>Working Directory</key>
+												<string>/Users/natashawijoyo</string>
+												<key>Working Directory Poller Disabled</key>
+												<false/>
+											</dict>
+											<key>View Type</key>
+											<string>SessionView</string>
+											<key>frame</key>
+											<dict>
+												<key>height</key>
+												<real>334</real>
+												<key>width</key>
+												<real>640</real>
+												<key>x</key>
+												<real>0.0</real>
+												<key>y</key>
+												<real>671</real>
 											</dict>
 										</dict>
 									</array>
@@ -4664,7 +3963,7 @@
 										<key>height</key>
 										<real>1005</real>
 										<key>width</key>
-										<real>642</real>
+										<real>640</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -4675,7 +3974,7 @@
 								</dict>
 								<dict>
 									<key>Is Active</key>
-									<integer>1</integer>
+									<integer>0</integer>
 									<key>Session</key>
 									<dict>
 										<key>Bookmark</key>
@@ -4928,7 +4227,7 @@
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>F5443A78-123D-4B74-9A17-3A748995DEA7</string>
+											<string>5AFE072C-7ED2-4192-9A8A-6EAA8F686AFE</string>
 											<key>Horizontal Spacing</key>
 											<real>1</real>
 											<key>Idle Code</key>
@@ -5473,212 +4772,12 @@
 											<string>/Users/natashawijoyo</string>
 										</dict>
 										<key>Columns</key>
-										<integer>87</integer>
+										<integer>89</integer>
 										<key>Commands</key>
-										<array>
-											<string>git master</string>
-											<string>git pull</string>
-											<string>git co quarantine/TPQ-22--personalized-application-cards</string>
-											<string>git merge master</string>
-											<string>git push</string>
-											<string>git flush</string>
-											<string>code ../ruby-intro/content.md</string>
-											<string>git master</string>
-											<string>git pull</string>
-											<string>git destroy quarantine/TPQ-22--personalized-application-cards</string>
-											<string>git last</string>
-											<string>sbin/ui-test/run-all pluto</string>
-											<string>z jobz</string>
-											<string>git log</string>
-											<string>sbin/ui-test/run-all pluto</string>
-											<string>z jobs</string>
-											<string>git pull</string>
-											<string>git co feature/job-card</string>
-											<string>update:talent-ui</string>
-											<string>yarn cypress-open</string>
-											<string>git pull</string>
-											<string>git pull</string>
-											<string>git pull</string>
-											<string>z jobz</string>
-											<string>sbin/remote-run -y earth rails runner "application = Application.find_by\!(uid: '0df470f6-2a8f-4ac9-a9c0-a2b0eff7e24e'); jobseeker_alias = TalentPlatform::Grapevine::FetchJobseekerAlias.new(application).call; p jobseeker_alias"</string>
-											<string>sbin/remote-run -y earth rails runner "user=User.find_by(email: 'test.device+1658442374+@heyjobs.de'); puts TalentPlatform::BuildLinkingUrl.new(user: user, path: '/jobs', auth_mode: 'magic').call; puts 'DONE'"</string>
-											<string>sbin/remote-run -y qa rails runner "user=User.find_by(email: 'test.device+1658442374+@heyjobs.de'); puts TalentPlatform::BuildLinkingUrl.new(user: user, path: '/jobs', auth_mode: 'magic').call; puts 'DONE'"</string>
-											<string>git pull</string>
-											<string>git master</string>
-											<string>update:talent-ui</string>
-											<string>z jobs</string>
-											<string>update:talent-ui</string>
-											<string>git master</string>
-											<string>git destroy feature/job-card</string>
-											<string>git pull</string>
-											<string>git co feature/job-card</string>
-											<string>update:talent-ui</string>
-											<string>yarn cypress-open-mobile</string>
-											<string>yarn cypress-open</string>
-											<string>git pull</string>
-											<string>git push</string>
-											<string>git pull</string>
-											<string>yarn cypress-open</string>
-											<string>git master</string>
-											<string>git destroy feature/job-card</string>
-											<string>git pull</string>
-											<string>update:talent-ui</string>
-											<string>cd ~</string>
-											<string>git init --bare $HOME/.dotfiles alias</string>
-											<string>git init --bare $HOME/.dotfiles</string>
-											<string>dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'</string>
-											<string>dotfiles</string>
-											<string>unset dotfiles</string>
-											<string>alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'</string>
-											<string>dotfiles</string>
-											<string>dotfiles config --local status.showUntrackedFiles no</string>
-											<string>cd .dotfiles</string>
-											<string>git submodule add https://github.com/anishathalye/dotbot</string>
-											<string>git status</string>
-											<string>cd ..</string>
-											<string>git status</string>
-											<string>cd .dotfiles</string>
-											<string>la</string>
-											<string>cd ..</string>
-											<string>rm -rf .dotfiles</string>
-											<string>git init --bare ~/.dotfiles</string>
-											<string>cd ~/.dotfiles</string>
-											<string>la</string>
-											<string>git config --local status.showUntrackedFiles no</string>
-											<string>git la</string>
-											<string>la</string>
-											<string>git submodule add https://github.com/anishathalye/dotbot</string>
-											<string>git status</string>
-											<string>la</string>
-											<string>cd ..</string>
-											<string>alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'</string>
-											<string>dotfiles status</string>
-											<string>dotfiles submodule add https://github.com/anishathalye/dotbot</string>
-											<string>la .dotfiles</string>
-											<string>la</string>
-											<string>dotfiles config -f .gitmodules submodule.dotbot.ignore dirty</string>
-											<string>cp dotbot/tools/git-submodule/install .</string>
-											<string>la | grep install</string>
-											<string>touch install.conf.yaml</string>
-											<string>la .dotfiles</string>
-											<string>la | grep install</string>
-											<string>dotfiles status</string>
-											<string>dotfiles log</string>
-											<string>rm -rf .dotfiles</string>
-											<string>la</string>
-											<string>cd Documents</string>
-											<string>la</string>
-											<string>la clone-and-run</string>
-											<string>cd clone-and-run</string>
-											<string>git status</string>
-											<string>la settings</string>
-											<string>git status</string>
-											<string>git add . &amp;&amp; git commit -m 'update and consolidate raycast config files'</string>
-											<string>git last</string>
-											<string>git push</string>
-										</array>
+										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
 											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo/.dotfiles</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo/Documents</string>
-											<string>/Users/natashawijoyo/Documents</string>
-											<string>/Users/natashawijoyo/Documents</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
-											<string>/Users/natashawijoyo/Documents/clone-and-run</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -5686,613 +4785,9 @@
 											<string>/Users/natashawijoyo</string>
 										</dict>
 										<key>Hostname to Shell</key>
-										<dict>
-											<key>natashawijoyo@MAC2020HJ057.local</key>
-											<string>zsh</string>
-										</dict>
+										<dict/>
 										<key>Hosts</key>
-										<array>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-										</array>
+										<array/>
 										<key>Is UTF-8</key>
 										<true/>
 										<key>Key Labels</key>
@@ -6312,28 +4807,30 @@
 										</array>
 										<key>Program</key>
 										<dict>
+											<key>Command</key>
+											<string>login -fp "natashawijoyo"</string>
 											<key>Type</key>
-											<string>Shell Launcher</string>
+											<string>Command</string>
 										</dict>
 										<key>Rows</key>
 										<integer>57</integer>
 										<key>Session GUID</key>
-										<string>77FA84EE-ED34-4988-9CDB-71627A3D1325</string>
+										<string>D94C837C-2A1A-4D1E-9EF1-6B4ED3930B26</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
-										<true/>
+										<false/>
 										<key>Should Expect Prompt Marks</key>
-										<true/>
+										<false/>
 										<key>Substitutions</key>
 										<dict>
 											<key>$$$$</key>
 											<string>$$</string>
 										</dict>
 										<key>Working Directory</key>
-										<string>/Users/natashawijoyo/Documents/clone-and-run</string>
+										<string>/Users/natashawijoyo</string>
 										<key>Working Directory Poller Disabled</key>
-										<true/>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -6342,9 +4839,9 @@
 										<key>height</key>
 										<real>1005</real>
 										<key>width</key>
-										<real>638</real>
+										<real>639</real>
 										<key>x</key>
-										<real>643</real>
+										<real>641</real>
 										<key>y</key>
 										<real>0.0</real>
 									</dict>
@@ -6604,7 +5101,7 @@
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>0C44FA0C-053B-4648-A8E5-F8400C2C3D46</string>
+											<string>28559148-7A69-4C30-B06A-14B095D12EBF</string>
 											<key>Horizontal Spacing</key>
 											<real>1</real>
 											<key>Idle Code</key>
@@ -7149,211 +5646,11 @@
 											<string>/Users/natashawijoyo</string>
 										</dict>
 										<key>Columns</key>
-										<integer>87</integer>
+										<integer>89</integer>
 										<key>Commands</key>
-										<array>
-											<string>cat ~/.ssh/id_rsa</string>
-											<string>cat ~/.ssh/id_ed25519</string>
-											<string>cat ~/.ssh/id_ed25519.pub</string>
-											<string>nano /Users/natashawijoyo/.ssh/config</string>
-											<string>nano /Users/natashawijoyo/.ssh/config</string>
-											<string>ssh -v natasha.wijoyo@10.30.23.226</string>
-											<string>nano /Users/natashawijoyo/.ssh/config</string>
-											<string>cat ~/.ssh/id_rsa.pub | pbcopy</string>
-											<string>ssh -v natasha.wijoyo@10.30.23.226</string>
-											<string>ssh -v natasha.wijoyo@10.30.23.226</string>
-											<string>nano /Users/natashawijoyo/.ssh/known_hosts</string>
-											<string>ssh -v natasha.wijoyo@10.30.23.226</string>
-											<string>ssh -v natasha.wijoyo@10.30.23.226</string>
-											<string>z jobz</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call_async('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>nano ~/.aws/config</string>
-											<string>nano ~/.aws/config</string>
-											<string>rm -r ~/.aws/cli/cache</string>
-											<string>rm ~/Library/Keychains/aws-vault.keychain-db</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call_async('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>nano ~/.aws/config</string>
-											<string>nano ~/.aws/config</string>
-											<string>aws-vault add heyjobsadmin</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call_async('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call_async('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Sync::SubmitCompany.call('37bcb6f6-28eb-49da-bc18-f6011678fb79'); p 'DONE'"</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::CompanyReference.create!(company_id: 123, name: '37bcb6f6-28eb-49da-bc18-f6011678fb79', external_id: '37bcb6f6-28eb-49da-bc18-f6011678fb79', sync_status: 'scheduled_create', synced_at: Time.at(0).utc); p 'DONE'"</string>
-											<string>sbin/remote-run -y pluto rails runner "Google::TalentSolution::Utils::NormalizeSyncState.call; p 'DONE'"</string>
-											<string>sbin/deploy pluto</string>
-											<string>z jobs</string>
-											<string>git branch</string>
-											<string>z jobz</string>
-											<string>sudo docker exec -it 1709fc7e79d0 bash</string>
-											<string>z jobs</string>
-											<string>postgres --version</string>
-											<string>postgresql@12 --version</string>
-											<string>services</string>
-											<string>brew services list</string>
-											<string>cypress:run:desktop --spec cypress/tests/ab-tests/visited-jobs-experiment.spec.ts</string>
-											<string>cypress:run:desktop --spec cypress/tests/ab-tests/visited-jobs-experiment.spec.ts</string>
-											<string>git push</string>
-											<string>git flush</string>
-											<string>cypress:run:desktop --spec cypress/tests/ab-tests/inbox-onboarding-message-experiment.spec.tss</string>
-											<string>cypress:run:desktop --spec cypress/tests/ab-tests/inbox-onboarding-message-experiment.spec.ts</string>
-											<string>git branch</string>
-											<string>cd ~</string>
-											<string>curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/mac/sessionmanager-bundle.zip" -o "sessionmanager-bundle.zip"</string>
-											<string>la | grep sessionmanager</string>
-											<string>unzip sessionmanager-bundle.zip</string>
-											<string>sudo ./sessionmanager-bundle/install -i /usr/local/sessionmanagerplugin -b /usr/local/bin/session-manager-plugin</string>
-											<string>la</string>
-											<string>rm -rf sessionmanager-bundle</string>
-											<string>rm sessionmanager-bundle.zip</string>
-											<string>code ~/.aws/credentials</string>
-											<string>aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws configure</string>
-											<string>aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws-vault exec 819516076228_aws-web_qa-developer-ps aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws-vault exec 819516076228_aws-web_qa-developer-ps -- aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>less ~/.aws/config</string>
-											<string>code ~/.aws/config</string>
-											<string>aws-vault exec 819516076228_aws-web_qa-developer-ps -- aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws-vault exec 819516076228_aws-web_qa-developer-ps -- aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws configure</string>
-											<string>aws configure</string>
-											<string>aws-vault exec 819516076228_aws-web_qa-developer -- aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>aws-vault exec aws-web_qa-developer -- aws ssm start-session --target i-00665a5d9db744c96 --region eu-central-1</string>
-											<string>z jobs</string>
-											<string>z ~</string>
-											<string>la</string>
-											<string>la</string>
-											<string>less install</string>
-											<string>la | grep .</string>
-											<string>la</string>
-											<string>la .iterm</string>
-											<string>la .iterm2</string>
-											<string>nano alias.sh</string>
-											<string>la .profile</string>
-											<string>less .profile</string>
-											<string>la ~/Library/StartupItems</string>
-											<string>la  /System/Library/StartupItems</string>
-											<string>cat /System/Library/LaunchDaemons/com.apple.pfctl.plist</string>
-											<string>less /Library/StartupItems</string>
-											<string>la /Library/StartupItems</string>
-											<string>/Library/LaunchDaemons</string>
-											<string>la</string>
-											<string>cd ~</string>
-											<string>la ~/Library/LaunchAgents</string>
-											<string>la /System/Library/LaunchDaemons</string>
-											<string>la ~/Library/LaunchAgents</string>
-											<string>la /Library/LaunchAgents/</string>
-											<string>rm -rf /Library/LaunchAgents/com.wdc.WD-Drive-Agent.plist</string>
-											<string>sudo rm /Library/LaunchAgents/com.wdc.WD-Drive-Agent.plist</string>
-											<string>la /Library/LaunchAgents/</string>
-											<string>la Documents/onboarding</string>
-											<string>open Documents/onboarding/tpe-qa-onboarding.pdf</string>
-										</array>
+										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobz_backend</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo/Documents/jobseeker-portal</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Library/LaunchDaemons</string>
-											<string>/Library/LaunchDaemons</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
-											<string>/Users/natashawijoyo</string>
 											<string>/Users/natashawijoyo</string>
 										</array>
 										<key>Environment</key>
@@ -7362,613 +5659,9 @@
 											<string>/Users/natashawijoyo</string>
 										</dict>
 										<key>Hostname to Shell</key>
-										<dict>
-											<key>natashawijoyo@MAC2020HJ057.local</key>
-											<string>zsh</string>
-										</dict>
+										<dict/>
 										<key>Hosts</key>
-										<array>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-											<dict>
-												<key>Host name</key>
-												<string>MAC2020HJ057.local</string>
-												<key>User name</key>
-												<string>natashawijoyo</string>
-											</dict>
-										</array>
+										<array/>
 										<key>Is UTF-8</key>
 										<true/>
 										<key>Key Labels</key>
@@ -7988,19 +5681,21 @@
 										</array>
 										<key>Program</key>
 										<dict>
+											<key>Command</key>
+											<string>login -fp "natashawijoyo"</string>
 											<key>Type</key>
-											<string>Shell Launcher</string>
+											<string>Command</string>
 										</dict>
 										<key>Rows</key>
 										<integer>57</integer>
 										<key>Session GUID</key>
-										<string>FAAF0ECF-3E84-47EA-812C-6C7F6108073E</string>
+										<string>1C1B0935-3232-4D72-AAC9-23A4DC9077C9</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
-										<true/>
+										<false/>
 										<key>Should Expect Prompt Marks</key>
-										<true/>
+										<false/>
 										<key>Substitutions</key>
 										<dict>
 											<key>$$$$</key>
@@ -8009,7 +5704,7 @@
 										<key>Working Directory</key>
 										<string>/Users/natashawijoyo</string>
 										<key>Working Directory Poller Disabled</key>
-										<true/>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -8018,9 +5713,9 @@
 										<key>height</key>
 										<real>1005</real>
 										<key>width</key>
-										<real>638</real>
+										<real>639</real>
 										<key>x</key>
-										<real>1282</real>
+										<real>1281</real>
 										<key>y</key>
 										<real>0.0</real>
 									</dict>
@@ -8043,11 +5738,11 @@
 							<true/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>27C7BEEE-4632-4732-BC65-D25DD2542D03</string>
+						<string>8276B096-29C1-40C5-B586-E2F331096306</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-9F8D034F-DA5D-4594-8080-BAEF894A29C5</string>
+				<string>pty-16D171F2-1E50-48E9-81FD-0B22A22A5630</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -8074,15 +5769,15 @@
 					</array>
 				</dict>
 				<key>Use Transparency</key>
-				<false/>
+				<true/>
 				<key>Width</key>
 				<real>1920</real>
 				<key>Window Type</key>
 				<integer>0</integer>
 				<key>X Origin</key>
-				<real>0.0</real>
+				<real>-232</real>
 				<key>Y Origin</key>
-				<real>0.0</real>
+				<real>900</real>
 			</dict>
 		</array>
 	</dict>
