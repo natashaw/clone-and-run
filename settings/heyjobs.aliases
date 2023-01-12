@@ -60,9 +60,9 @@ print-envs-in-planet() {
 }
 
 # jobseeker-portal
-alias nodemon="nodemon --config ~/nodemon.json"
-alias startui="nodemon"
-alias setup:start="yarn setup && nodemon"
+alias configure:gulp="code $HOME/Projects/jobseeker-portal/gulpfile.js"
+alias startui="gulp --color"
+alias setup:start="yarn setup && startui"
 alias startproxy="yarn run-backend-proxy"
 alias cypress:run:desktop="yarn cypress-run"
 alias cypress:run:mobile="yarn cypress-run --config viewportWidth=375,viewportHeight=812"
@@ -71,4 +71,4 @@ alias update:master="git pull || yarn localise"
 alias circle:config:validate="circleci config validate .circleci/config.yml"
 
 # jobz_backend and brazing_alloys
-alias open:credentials="EDITOR=\"code --wait\" rails credentials:edit"
+alias open:credentials="rails credentials:edit"

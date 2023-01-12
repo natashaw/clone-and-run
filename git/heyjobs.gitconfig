@@ -1,5 +1,6 @@
 [core]
     editor = code -w
+	excludesfile = /Users/natashawijoyo/.gitignore.global
 [user]
     name = natashaw
     email = natashawijoyo@gmail.com
