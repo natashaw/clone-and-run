@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# All the settings below are taken from https://mths.be/macos, modified to my personal preferences
+
 set -o errexit
 set -o pipefail
 
