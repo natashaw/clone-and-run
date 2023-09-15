@@ -11,4 +11,4 @@
     destroy = branch -D
     last = log -1 HEAD
     master = checkout master
-    flush = push --no-verify
+	main = checkout main
