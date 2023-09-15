@@ -44,9 +44,6 @@ tapped? osx-cross/avr && brew tap osx-cross/avr
 # lsusb
 tapped? jlhonora/lsusb && brew tap jlhonora/lsusb
 
-# Turbo Boost Switcher
-application_absent? "Turbo Boost Switcher" && brew install --cask turbo-boost-switcher
-
 # iTerm
 application_absent? iTerm && brew install --cask iterm2
 
