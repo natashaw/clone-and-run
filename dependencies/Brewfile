@@ -1,25 +1,51 @@
+### taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "osx-cross/avr"
+tap "jlhonora/lsusb"
+
+### essentials
+cask "raycast"
+cask "iterm2"
+cask "visual-studio-code"
+cask "brave-browser"
+cask "google-chrome"
+cask "1password"
+cask "todoist"
+cask "notion"
+cask "dropbox"
+
+### communications
+cask "whatsapp"
+cask "zoom"
+
+### entertainment
+brew "youtube-dl"
+cask "spotify"
+
+### AWS CLI
+cask "aws-vault"
 brew "awscli"
-brew "dnsmasq"
-brew "ffmpeg"
-brew "gh"
-brew "gnupg"
+
+### for work only
+# cask "slack"
+# cask "meetingbar"
+# cask "dash"
+# cask "postman"
+# brew "gh"
+
+### everything else
 brew "mas" # cli for Mac App Store
+cask "tunnelblick"
+brew "terminal-notifier"
+brew "fzf" # fuzzy search
+brew "ffmpeg"
+brew "gnupg"
 brew "htop" 
 brew "nmap" 
-brew "fzf" # fuzzy search
 brew "jq" 
 brew "yq" 
-brew "terminal-notifier" 
-brew "tree" 
 brew "wget"
-cask "visual-studio-code"
-cask "aws-vault"
-cask "postman"
-cask "dash"
-cask "tunnelblick"
-cask "todoist"
-cask "meetingbar"
+brew "tree" 

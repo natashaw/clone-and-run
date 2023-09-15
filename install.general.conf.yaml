@@ -17,3 +17,7 @@
   - [sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Installing Oh My Zsh]
   - [git clone https://github.com/agkozak/zsh-z ~/.oh-my-zsh/custom/plugins/zsh-z, Installing zsh-h plugin]
   - [cp -f $PWD/settings/.zshrc $HOME/.zshrc, Renovating .zshrc]
+  - [source ~/.zshrc; clear, Restart Shell]
+  - [./dependencies/macos.sh, Install dependencies]
+  - [source ~/.zshrc; clear, Restart Shell]
+  - [brew bundle --file=dependencies/Brewfile && brew cleanup, Install Brew Formulaes]
