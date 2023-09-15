@@ -71,6 +71,9 @@ application_absent? Slack && brew install --cask slack
 # Zoom
 application_absent? Zoom && brew install --cask zoom
 
+# Brave Browser
+application_absent? "Brave Browser" && brew install --cask brave-browser
+
 # Google Chrome
 application_absent? "Google Chrome" && brew install --cask google-chrome
 
