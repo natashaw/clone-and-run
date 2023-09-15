@@ -49,12 +49,16 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock orientation left
 
 # Disable 'Show Spotlight search' hotkey
-# [MacOS] 'Keyboard' > 'Shortcuts' tab > 'Spotlight' section > 'Show Spotlight search'
-plutil -replace AppleSymbolicHotKeys.64.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
+# System Settings/Preferences > 'Keyboard' > 'Keyboard Shortcuts' button > 'Spotlight' section > 'Show Spotlight search'
+# Note: this keypath doesn't exist in plist if this setting has never been changed before. In such case, -insert is the right option
+plutil -replace AppleSymbolicHotKeys.64.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist" || \
+plutil -insert AppleSymbolicHotKeys.64.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
 
 # Disable 'Show Finder search window' hotkey
-# [MacOS] 'Keyboard' > 'Shortcuts' tab > 'Spotlight' section > 'Show Finder search window'
-plutil -replace AppleSymbolicHotKeys.65.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
+# System Settings/Preferences > 'Keyboard' > 'Keyboard Shortcuts' button > 'Spotlight' section > 'Show Finder search window'
+# Note: this keypath doesn't exist in plist if this setting has never been changed before. In such case, -insert is the right option
+plutil -replace AppleSymbolicHotKeys.65.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist" || \
+plutil -insert AppleSymbolicHotKeys.65.enabled -bool false "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -267,10 +271,11 @@ for app in "Dock" \
     "cfprefsd" \
 	"Finder" \
 	"Safari" \
-	"SystemUIServer" \
-	"Terminal"; do
-	killall "${app}" &> /dev/null
+	"SystemUIServer"; do
+	killall "${app}" &> /dev/null || true
 done
 
+echo
+echo "=============================================================================="
 echo "Done. Note that some of these changes require a logout/restart to take effect."
 exit 0
